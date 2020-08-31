@@ -1,0 +1,47 @@
+body
+{
+    margin: 0;
+    background-image: url("img/bgr.jpg");
+    background-size: cover;
+}
+
+.links
+{
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link
+{
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: transform 150ms ease-in-out;
+    background: white;
+    border: 2px solid grey;
+}
+
+.img 
+{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.link:hover
+{
+    transform:scale(1.1);
+    
+}
